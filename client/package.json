@@ -1,7 +1,8 @@
 {
   "name": "client",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "build": "mkdir -p dist && echo '<h1>LEGO Tetris</h1>' > dist/index.html"
+    "build": "mkdir -p dist && echo '<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>LEGO Tetris</title></head><body><h1>LEGO Tetris</h1></body></html>' > dist/index.html"
   }
 }
