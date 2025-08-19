@@ -1,6 +1,7 @@
 {
-  "name": "client",
+  "name": "lego-tetris",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,6 +13,6 @@
   },
   "devDependencies": {
     "vite": "^4.5.0",
-    "@vitejs/plugin-react": "^4.0.0"
+    "@vitejs/plugin-react": "^4.2.0"
   }
 }
