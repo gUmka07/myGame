@@ -1,0 +1,15 @@
+{
+  "name": "myGame",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "dev:client": "cd client && npm install && npm run dev",
+    "dev:server": "cd server && npm install && nodemon api/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.2"
+  }
+}
