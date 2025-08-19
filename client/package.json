@@ -1,0 +1,7 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && echo '<h1>LEGO Tetris</h1>' > dist/index.html"
+  }
+}
